@@ -18,6 +18,11 @@ body {
     justify-self: center;
     background-color: rgb(247, 255, 247);
     background-size: cover;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
 }
 header {
     display: flex;
@@ -240,12 +245,63 @@ p {
     text-align: center;
     width: 100%;
     align-items: center; 
+    margin-top: 5rem;
 }
 
 .contact-list, li {
     list-style-type: none;
     text-decoration: none;
 }
+
+.modal-title, .modal-body {
+    color: blue;
+}
+
+/* #myModal { 
+    /* width: 100%; 
+    color: red;
+    /* display: flex; 
+    flex-wrap: wrap;
+    /* position: fixed; 
+    top: 20rem;
+    z-index: 4;
+    justify-content: center;
+    /* filter: none !important;
+    -webkit-filter: none !important;
+    -moz-filter: none !important;
+    -o-filter: none !important;
+    -ms-filter: none !important; 
+    
+   /* display: none; 
+}
+/* .modal-dialog { 
+    display: block;
+    background-color: rgb(241, 252, 252);
+    color: darkblue;
+    justify-content: space-evenly;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 25%;
+    color: darkblue;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    
+}
+/* .id-title { 
+    display: block;
+   
+}
+
+/* button { 
+    background-color: transparent;
+    color: black;
+    /* margin: 2rem; 
+    border-radius: 25%;
+    padding: 3rem;
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+*/
 
 
 
